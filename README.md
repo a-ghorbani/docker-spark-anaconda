@@ -5,19 +5,19 @@ This docker is based on [this](https://hub.docker.com/r/aghorbani/docker-spark) 
 ## Pull the image from Docker Repository
 
 ```
-docker pull aghorbani/spark-anaconda:2.0.2-3.4
+docker pull aghorbani/spark-anaconda:2.1.0-3.4
 ```
 
 ## Build the image
 
 ```
-docker build --rm -t aghorbani/spark-anaconda:2.0.2-3.4  .
+docker build --rm -t aghorbani/spark-anaconda:2.1.0-3.4  .
 ```
 
 ## Running the image
 
 ```
-docker run -it -p 8088:8088 -p 8042:8042 -p 4040:4040 -h sandbox aghorbani/spark-anaconda:2.0.2-3.4 bash
+docker run -it -p 8088:8088 -p 8042:8042 -p 4040:4040 -h sandbox aghorbani/spark-anaconda:2.1.0-3.4 bash
 ```
 
 For further details on the spark part of this image have a look [here](https://hub.docker.com/r/aghorbani/docker-spark).
